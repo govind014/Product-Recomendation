@@ -15,7 +15,7 @@ class UserSimulator:
 		self.unusedSlotValues.pop('productname')
 
 	def GenerateUserGoal(self):
-		self.goal = {'productname':'any', 'city':'any', 'numberofproducts':'any', 'time':'any', 'product':'any', 'pricing':'any'}
+		self.goal = {'productname':'any', 'city':'any', 'numberofproducts':'any', 'time':'any', 'category':'any', 'pricing':'any'}
 		#Adds informs for necessary slots with random values from the slot dictionary or random numeric
 		for slot in necessarySlots:
 			#With a probability of 80%, the user does not have a restaurant in mind and will make a request to determine one
@@ -24,9 +24,9 @@ class UserSimulator:
 					#Fill city with high probability
 					if random.random() < 0.9:
 						self.FillOptionalSlot('city')
-					#Fill product with fairly high probability
+					#Fill category with fairly high probability
 					if random.random() < 0.8:
-						self.FillOptionalSlot('product')
+						self.FillOptionalSlot('category')
 					#Fill pricing with medium probability
 					if random.random() < 0.6:
 						self.FillOptionalSlot('pricing')
@@ -52,22 +52,22 @@ class UserSimulator:
 
 		if self.goal['productname'] == 'any':
 			#Inform all optional slots if they are filled
-			if probability < 0.3 and self.goal['city'] != 'any' and self.goal['product'] != 'any' and self.goal['pricing'] != 'any':
+			if probability < 0.3 and self.goal['city'] != 'any' and self.goal['category'] != 'any' and self.goal['pricing'] != 'any':
 				self.firstAction = {'intent':'inform', 'informSlots': \
-					{'city' : self.goal['city'], 'product' : self.goal['product'], 'pricing' : self.goal['pricing']}}
+					{'city' : self.goal['city'], 'category' : self.goal['category'], 'pricing' : self.goal['pricing']}}
 			else:
-				#Inform city and product if they are filled
-				if probability <= 0.4 and self.goal['city'] != 'any' and self.goal['product'] != 'any':
+				#Inform city and category if they are filled
+				if probability <= 0.4 and self.goal['city'] != 'any' and self.goal['category'] != 'any':
 					self.firstAction = {'intent':'inform', 'informSlots': \
-						{'city' : self.goal['city'], 'product' : self.goal['product']}}
+						{'city' : self.goal['city'], 'category' : self.goal['category']}}
 				#Inform city and pricing if they are filled
 				elif probability > 0.4 and probability <= 0.7 and self.goal['city'] != 'any' and self.goal['pricing'] != 'any':
 					self.firstAction = {'intent':'inform', 'informSlots': \
 						{'city' : self.goal['city'], 'pricing' : self.goal['pricing']}}
-				#Inform product and pricing if they are filled
-				elif probability > 0.7 and self.goal['product'] != 'any' and self.goal['pricing'] != 'any':
+				#Inform category and pricing if they are filled
+				elif probability > 0.7 and self.goal['category'] != 'any' and self.goal['pricing'] != 'any':
 					self.firstAction = {'intent':'inform', 'informSlots': \
-						{'product' : self.goal['product'], 'pricing' : self.goal['pricing']}}			
+						{'category' : self.goal['category'], 'pricing' : self.goal['pricing']}}			
 		else:
 			#Inform all necessary slots with 40% chance
 			if probability < 0.4:
@@ -85,7 +85,7 @@ class UserSimulator:
 
 		#If not multi-inform, choose random single-inform
 		if not self.firstAction:
-			if self.goal['city'] != 'any' or self.goal['product'] != 'any' or self.goal['pricing'] != 'any':
+			if self.goal['city'] != 'any' or self.goal['category'] != 'any' or self.goal['pricing'] != 'any':
 				while not self.firstAction:
 					chosenSlot = random.choice(optionalSlots)
 					if self.goal[chosenSlot] != 'any':
@@ -109,7 +109,7 @@ class UserSimulator:
 					nextAction = {'intent':'inform', 'informSlots':{slot:self.goal[slot]}}
 				#Evaluate the match proposed by the agent
 				elif agentAction['intent'] == 'matchFound':
-					#If there is no match, change random requestable slot value (city, pricing or product)
+					#If there is no match, change random requestable slot value (city, pricing or category)
 					if not agentAction['informSlots']:
 						nextAction = self.ChangeOptionalSlotIfNoMatches()
 					#If there is a match and it is fulfilling the goal...
@@ -152,7 +152,7 @@ class UserSimulator:
 	#Changes an optional slot if no database entries match the user goal
 	def ChangeOptionalSlotIfNoMatches(self):
 		#Reset unused slots if all possible slots have been tried
-		if not self.unusedSlotValues['product'] and not self.unusedSlotValues['city'] and not self.unusedSlotValues['pricing']:
+		if not self.unusedSlotValues['category'] and not self.unusedSlotValues['city'] and not self.unusedSlotValues['pricing']:
 			self.ResetUnusedSlotValues()			
 		#Choose random slot to change
 		slotToReplace = random.choice(optionalSlots)

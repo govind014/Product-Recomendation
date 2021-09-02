@@ -3,9 +3,9 @@ import random, copy
 ###Constants
 
 #Defines whether the program is in training
-IN_TRAINING = False
+IN_TRAINING = True
 #Defines whether the program is used by a real user or the user sim
-REAL_USER = True
+REAL_USER = False
 #For printing the dialogues in training
 PRINTING = False
 #For printing the success rate
@@ -52,6 +52,7 @@ slotDictionary = { 'productname' :['Poco M2','Motorola Edge 20',   'Apple Iphone
 	 								'Travel bags',   'Tshirt',   'Realme PowerBank',   'DSLR Camera',  
 	   								'Realme Narzo 5G','Ashirvad Atta',   'Peanut Butter',   'Roasted Almond', 
 	   								'Bata Footwear', 'Carromboard',    'Mobile Case',    'DTH', 'eGPU'],
+				   'city' : [ 'Trivandrum', 'Bangalore', 'Kochi', 'Chennai' ],
 				   'category' : ['Sports', 'Grocery', 'Mobile', 'Fashion', 'Electronics' ],
 				   'pricing' : [ 'Expensive', 'Cheap', 'Average' ] }
 
