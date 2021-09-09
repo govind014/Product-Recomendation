@@ -7,9 +7,9 @@ IN_TRAINING = True
 #Defines whether the program is used by a real user or the user sim
 REAL_USER = False
 #For printing the dialogues in training
-PRINTING = False
+PRINTING = True
 #For printing the success rate
-PRINT_PROGRESS_INTERVAL = 1000
+PRINT_PROGRESS_INTERVAL = 500
 #Minimum epsilon value for epsilon-decreasing exploration
 EPSILON_MIN = 0.01
 #Value which epsilon is multiplied by to decrease its impact over time
@@ -19,7 +19,7 @@ ALPHA = 0.0002
 #Discount factor gamma for value updates
 GAMMA = 0.99
 #Capacity of the replay buffer
-MEMORY_CAPACITY = 100000
+MEMORY_CAPACITY = 10000
 #Batch size of sampled tuples from the replay buffer for training
 BATCH_SIZE = 16
 #File name of the the dqn model saved at the end of training
@@ -27,7 +27,7 @@ FILE_NAME = 'dqn_model.h5'
 #How many rounds can occur in a conversation at most
 TURN_LIMIT = 20
 #How many episodes/dialogues to train in total
-TRAIN_AMOUNT = 100000
+TRAIN_AMOUNT = 50000
 #Number of neurons in the deep q networks hidden layer
 HIDDEN_SIZE = 80
 #Number of turns between target network updates based on the online network

@@ -15,7 +15,7 @@ class DialogueManager(threading.Thread):
 			threading.Thread.__init__(self)
 			self.nlp = NaturalLanguageProcessor()
 			#Write initial bot message
-			self.ui.messages.insert(END, "Bot: Hello, how may I help you?")
+			self.ui.messages.insert(END, "Bot : Hello, how may I help you?")
 			self.ui.entryField.focus()
 		self.user = UserSimulator()
 		self.stateTracker = StateTracker()
@@ -121,6 +121,7 @@ class DialogueManager(threading.Thread):
 			time.sleep(0.1)
 			#Extract intent and slots from utterance using the natural language processor
 			userAction = self.nlp.GetSemanticFrame(userUtterance, agentAction)
+			#print(f'User Action Semantic frame : ',userAction)
 			#Set reward and result = 0 because they only matter in training (when using the user sim)
 			reward = 0
 			result = 0
@@ -136,6 +137,7 @@ class DialogueManager(threading.Thread):
 	#Chooses a random entry from the database that matches the current constraints and fills agent inform slots
 	def FillWithMatch(self, nextAgentAction):
 		possibleEntries = self.stateTracker.GetPossibleEntries()
+		#print('\nPossible Entries : ',possibleEntries)
 
 		if possibleEntries:
 			#Choose random restaurant from the possible entries
