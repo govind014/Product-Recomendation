@@ -18,25 +18,17 @@ class Agent:
 
 	#Takes the current state and its size to choose an action
 	def PredictNextAction(self, state, stateSize):
-		#print(f'\nstate  = ',state)
-		#print(f'\nstate size = ',stateSize)
 		rand = random.random()
-		print(f'\nagentActions : ')
-		for items in agentActions:
-			#print( items)
 		#Determine if random or policy-based action
 		if IN_TRAINING and rand < self.epsilon:
 			nextAction = random.choice(agentActions)
-			#print(f'\nnextAction : ', nextAction)
 		else:
 			#Network outputs value for each agent action based on the state
 			actionValues = self.onlineNetwork.predict(state.reshape(1, stateSize)).flatten()
-			#print(f'\nactionValues : ', actionValues)
 			#Gets index of action with highest Q-value
 			nextActionIndex = np.argmax(actionValues)
 			#Returns corresponding action based on the chosen index
 			nextAction = self.IndexToAction(nextActionIndex)
-			#print(f'\nnextAction : ' , nextAction)
 
 		#Decrease the epsilon
 		if self.epsilon > EPSILON_MIN:
@@ -67,13 +59,11 @@ class Agent:
 			return
 
 		batch = self.memory.SampleBatchFromBuffer()
-		#print(f'batch (SampleBatchFromBuffer()) : ',batch)
 
 		#For each tuple in the batch
 		for state, action, reward, nextState in batch:
 			#Compute Q-values of online network
 			qNow = self.onlineNetwork.predict(state.reshape(1, stateSize)).flatten()
-			#print(f'qNow : ',qNow)
 			#Initialize target Q-values with online Q-values
 			qTarget = qNow.copy()
 
@@ -106,17 +96,17 @@ class Agent:
 		slot = nextAction['requestSlots']
 
 		if slot == 'productname':
-			return '\nDo you have a specific product in mind? \n'
+			return 'Do you have a specific product in mind?'
 		elif slot == 'numberofproducts':
-			return '\nHow many items do you need?\n'
+			return 'How many products do you need?'
 		elif slot == 'city':
-			return '\nPlease enter your location for delivery?\n'
+			return 'In which city do you want to pruchase?'
 		elif slot == 'time':
-			return '\nAt what time do you want this product be delivered?\n'
+			return 'At what time do you want the delivery?'
 		elif slot == 'category':
-			return '\nWhich category are you looking for?\n'
+			return 'Which category are you looking for?'
 		elif slot == 'pricing':
-			return '\nHow high shall the pricing be?\n'
+			return 'How high shall the pricing be?'
 
 	#Compose response to propose a matching product
 	def GenerateMatchFoundResponse(self, nextAction):
@@ -125,8 +115,8 @@ class Agent:
 		if nextAction['informSlots']:
 			match = nextAction['informSlots']
 			responseString.append(f"How about \"{match['productname']}\"? ")
-			responseString.append(f"It is available at {match['city']}  ")
-			responseString.append(f" (Categoty : {match['category']}, Pricing :  {match['pricing'].lower()})")
+			responseString.append(f"It is located in {match['city']} and has ")
+			responseString.append(f"{match['category']} category with {match['pricing'].lower()} pricing.")
 		else:
 			responseString.append('No product matches the current information.')
 		return ''.join(responseString)
@@ -161,7 +151,7 @@ class Agent:
 		else:
 			time = 'Unknown'
 
-		return f"The booking has been done for \"{name}\" at {city} for {people} items and items will be delivered by {time} AM/PM."
+		return f"A reservation has been made at \"{name}\" in {city} for {people} people at {time}."
 
 	#Returns a database entry given a product name
 	def GetEntryFromDb(self, productname):
