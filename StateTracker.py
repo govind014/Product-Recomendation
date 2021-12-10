@@ -2,7 +2,7 @@ from Database import *
 from Config import *
 import numpy as np, math
 
-#The code of this class is based on https://github.com/maxbren/GO-Bot-DRL
+
 class StateTracker:
 
 	def __init__(self):
@@ -27,8 +27,9 @@ class StateTracker:
 		if userAction['intent'] == 'inform':
 			for slot, value in userAction['informSlots'].items():
 				self.filledSlots[slot] = value
-				if slot == 'restaurantname' and value != 'any':
+				if slot == 'productname' and value != 'any':
 					self.filledSlots['match'] = value
+		print(f'\n>>> Filled Slots : ', self.filledSlots)
 
 	def GetPossibleEntries(self):
 		#start with all database entries and remove misses
@@ -41,8 +42,34 @@ class StateTracker:
 			for entry in possibleEntriesForIteration:
 				if slot in entry and value != entry[slot]:
 					possibleEntries.remove(entry)
-
+		#print(f'\nPossible Entries : \n',possibleEntries)
 		return possibleEntries
+
+	def GetPossibleEntriesNER(self):
+		keys_ = ['productname', 'city', 'category' , 'pricing']
+		possibleEntriestmp = copy.deepcopy(database)
+		possibleEntries = []
+		# print(self.filledSlots)
+		uniqueKeys = []
+		uniqueData = []
+		for item in self.filledSlots.keys():
+			uniqueKeys.append(item)
+			for value in self.filledSlots[item]:
+				tmp = [item, value]
+				uniqueData.append(tmp)
+		for items in uniqueData:
+			key = items[0]
+			value = items[1]
+			dictCheck = {key:value}
+			#print((dictCheck))
+			for data in possibleEntriestmp:
+				if data[key] == dictCheck[key]:
+					#print(data)
+					possibleEntries.append(data)
+		print("\n>>> Possible Entries :  ",possibleEntries)
+		return possibleEntries
+
+
 
 
 	#Prepares a state representation with useful information for the agent
@@ -94,7 +121,8 @@ class StateTracker:
 			 filledSlotsRepresentation, 
 			 turnOneHotRepresentation, 
 			 dbResults]).flatten()
-
+		#print(f'\nState representation : ', stateRepresentation)
+		#print(stateRepresentation)
 		return stateRepresentation
 
 
@@ -108,4 +136,7 @@ class StateTracker:
 
 	#Takes a list and retuns its values as keys and their indices as values in a dictionary
 	def ListToIndexDictionary(self, list):
+		"""
+		Takes a list and retuns its values as keys and their indices as values in a dictionary
+		"""
 		return {k: v for v, k in enumerate(list)}
