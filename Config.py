@@ -3,9 +3,9 @@ import random, copy
 ###Constants
 
 #Defines whether the program is in training
-IN_TRAINING = True
+IN_TRAINING = False
 #Defines whether the program is used by a real user or the user sim
-REAL_USER = False
+REAL_USER = True
 #For printing the dialogues in training
 PRINTING = True
 #For printing the success rate
@@ -52,10 +52,29 @@ slotDictionary = { 'productname' :['Poco M2','Motorola Edge 20',   'Apple Iphone
 	 								'Travel bags',   'Tshirt',   'Realme PowerBank',   'DSLR Camera',  
 	   								'Realme Narzo 5G','Ashirvad Atta',   'Peanut Butter',   'Roasted Almond', 
 	   								'Bata Footwear', 'Carromboard',    'Mobile Case',    'DTH', 'eGPU'],
-				   'city' : [ 'Trivandrum', 'Bangalore', 'Kochi', 'Chennai' ],
+				# 'productname2' :['Poco M2','Motorola Edge 20',   'Apple Iphone',  'Roadster', 
+				# 				'Dolo',   'Cashew Nut',   'Headphones',   'Laptop',   'Cricket Bat',  
+				# 				'Suitcase',   'Samsung Note ',   'Horlicks',   'Football', 
+				# 				'Gym workout Kit',  '4K TV',   'Earphones',   'Redmi Note 9',  
+				# 				'Samsung M51',   'Sunflower Oil', 'Football',   'Yonex racquet', 
+				# 				'Travel bags',   'Tshirt',   'Realme PowerBank',   'DSLR Camera',  
+				# 				'Realme Narzo 5G','Ashirvad Atta',   'Peanut Butter',   'Roasted Almond', 
+				# 				'Bata Footwear', 'Carromboard',    'Mobile Case',    'DTH', 'eGPU'],
+				   'city' : [ 'Trivandrum', 'Bangalore', 'Kochi', 'Chennai', 'Pune','India', 'Kolkota' ],
 				   'category' : ['Sports', 'Grocery', 'Mobile', 'Fashion', 'Electronics' ],
-				   'pricing' : [ 'Expensive', 'Cheap', 'Average' ] }
+				#   'city2' : [ 'Trivandrum', 'Bangalore', 'Kochi', 'Chennai', 'Pune','India', 'Kolkota' ],
+				#   'category2' : ['Sports', 'Grocery', 'Mobile', 'Fashion', 'Electronics' ],
+				   'pricing' : [ 'Expensive', 'Cheap', 'Average' , 'cost', 'cheap', 'price.'] }
 
+tagDict = {
+    'pricing': ["<B-PRICING>", "<I-PRICING>", "<O-PRICING>"],
+    'productname': ["<B-PRODUCTNAME>", "<I-PRODUCTNAME>", "<O-PRODUCTNAME>"],
+    'category': ["<B-CATEGORY>", "<I-CATEGORY>", "<O-CATEGORY>"],
+    'city': ["<B-CITY>", "<I-CITY>", "<O-CITY>"],
+    'numberofproducts': ["<B-NUMBEROFPRODUCTS>", "<I-NUMBEROFPRODUCTS>", "<O-NUMBEROFPRODUCTS>"],
+    'time': ["<B-TIME>", "<I-TIME>", "<O-TIME>"]}
+
+	
 #For one-hot encoding in state representation
 userIntents = ['inform', 'reject', 'confirm']
 agentIntents = ['done', 'matchFound', 'request']

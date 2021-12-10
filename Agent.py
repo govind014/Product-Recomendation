@@ -21,22 +21,25 @@ class Agent:
 		#print(f'\nstate  = ',state)
 		#print(f'\nstate size = ',stateSize)
 		rand = random.random()
-		print(f'\nagentActions : ')
-		for items in agentActions:
-			#print( items)
+		# print(f'\nagentActions : ')
+		# for items in agentActions:
+		# 	print( items)
 		#Determine if random or policy-based action
+		
 		if IN_TRAINING and rand < self.epsilon:
 			nextAction = random.choice(agentActions)
-			#print(f'\nnextAction : ', nextAction)
+			print(f'\n>>> nextAction : ', nextAction )
+			print("--------------------------------------------------------------------------------------")
 		else:
 			#Network outputs value for each agent action based on the state
 			actionValues = self.onlineNetwork.predict(state.reshape(1, stateSize)).flatten()
-			#print(f'\nactionValues : ', actionValues)
+			print(f'\n>>> Action Values : ', actionValues)
 			#Gets index of action with highest Q-value
 			nextActionIndex = np.argmax(actionValues)
 			#Returns corresponding action based on the chosen index
 			nextAction = self.IndexToAction(nextActionIndex)
-			#print(f'\nnextAction : ' , nextAction)
+			print(f'\nnextAction : ' , nextAction)
+			print("--------------------------------------------------------------------------------------")
 
 		#Decrease the epsilon
 		if self.epsilon > EPSILON_MIN:

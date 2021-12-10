@@ -1,0 +1,2074 @@
+What O
+is O
+the O
+price B-PRICING
+of O
+Redmi B-PRODUCTNAME
+Note I-PRODUCTNAME
+9 I-PRODUCTNAME
+? O
+
+Poco B-PRODUCTNAME
+M2 I-PRODUCTNAME
+has O
+5000 O
+mAh O
+battery O
+
+Motorola B-PRODUCTNAME
+Edge I-PRODUCTNAME
+20 I-PRODUCTNAME
+is O
+sleek O
+and O
+stylish O
+
+Apple B-PRODUCTNAME
+Iphone I-PRODUCTNAME
+is O
+costly O
+cost B-PRICING
+
+Roadster B-PRODUCTNAME
+is O
+a O
+cheap B-PRICING
+and O
+good O
+brand O
+
+If O
+you O
+are O
+having O
+cold, O
+use O
+Dolo B-PRODUCTNAME
+
+Boat, O
+JBL, O
+Infinty B-PRODUCTNAME
+are O
+headphone O
+brands O
+Boat B-PRODUCTNAME
+JBL B-PRODUCTNAME
+
+What O
+all O
+comes O
+in O
+Gym B-PRODUCTNAME
+Workout I-PRODUCTNAME
+Kit I-PRODUCTNAME
+? O
+
+Cashew B-PRODUCTNAME
+nut I-PRODUCTNAME
+is O
+Expensive B-PRICING
+
+What O
+price B-PRICING
+range O
+laptop B-PRODUCTNAME
+do O
+you O
+want O
+
+How O
+much O
+does O
+a O
+4K B-PRODUCTNAME
+TV I-PRODUCTNAME
+cost B-PRICING
+
+MRF, O
+Ceat, O
+Kookabura B-PRODUCTNAME
+manufature O
+cricket B-PRODUCTNAME
+bat I-PRODUCTNAME
+MRF B-PRODUCTNAME
+Ceat B-PRODUCTNAME
+
+Normal O
+size O
+of O
+football B-PRODUCTNAME
+is O
+5 O
+
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+has O
+6000 O
+mAh O
+battery O
+
+Ashirvad B-PRODUCTNAME
+Atta I-PRODUCTNAME
+is O
+a O
+popular O
+grocery B-CATEGORY
+brand O
+
+Sunflower B-PRODUCTNAME
+Oil I-PRODUCTNAME
+is O
+not O
+good O
+for O
+health O
+
+Yonex O
+Rcquets O
+are O
+good O
+quality O
+badminton B-PRODUCTNAME
+racquets O
+
+Realme B-PRODUCTNAME
+Narzo I-PRODUCTNAME
+5G I-PRODUCTNAME
+is O
+one O
+of O
+the O
+latest O
+product O
+
+Bata B-PRODUCTNAME
+Footwear B-PRODUCTNAME
+is O
+one O
+brand O
+that O
+in O
+Indain O
+market O
+for O
+years O
+
+Fashion B-CATEGORY
+Sale O
+is O
+on O
+. O
+
+Different O
+colors O
+of O
+tshirts O
+are O
+available O
+tshirt B-PRODUCTNAME
+
+Trivandrum B-CITY
+is O
+far O
+away O
+from O
+Bangalore B-CITY
+
+Delhi B-CITY
+is O
+the O
+capital O
+of O
+India B-CITY
+
+Roasted B-PRODUCTNAME
+almond I-PRODUCTNAME
+is O
+delicious O
+. O
+
+Price O
+of O
+most O
+the O
+items O
+are O
+average B-PRICING
+. O
+
+Various O
+different O
+mobile B-CATEGORY
+cases O
+are O
+available O
+here O
+case I-PRODUCTNAME
+
+Poco B-PRODUCTNAME
+M2, O
+Motorola B-PRODUCTNAME
+edge I-PRODUCTNAME
+20, O
+Apple B-PRODUCTNAME
+Iphone, O
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+are O
+mobile B-CATEGORY
+brands O
+M2 I-PRODUCTNAME
+20 I-PRODUCTNAME
+Iphone I-PRODUCTNAME
+
+I O
+want O
+sunflower B-PRODUCTNAME
+oil I-PRODUCTNAME
+
+Is O
+roasted B-PRODUCTNAME
+almonds O
+available O
+almond I-PRODUCTNAME
+
+Almonds, O
+Sunflower B-PRODUCTNAME
+oil, O
+atta O
+etc O
+are O
+grocery B-CATEGORY
+items O
+oil I-PRODUCTNAME
+
+Football, O
+cricket, O
+badminton, O
+tennis, O
+golf O
+etc O
+are O
+sports B-CATEGORY
+items O
+badminton B-PRODUCTNAME
+Football B-PRODUCTNAME
+
+Cricket B-PRODUCTNAME
+bat I-PRODUCTNAME
+is O
+used O
+to O
+play O
+cricket, O
+which O
+a O
+sport O
+
+T-shirt, O
+jeans, O
+sweaters, O
+shoes B-PRODUCTNAME
+are O
+fashion B-CATEGORY
+items O
+T-shirt B-PRODUCTNAME
+jeans B-PRODUCTNAME
+sweaters B-PRODUCTNAME
+
+What O
+is O
+the O
+price B-PRICING
+of O
+Samsung B-PRODUCTNAME
+Note I-PRODUCTNAME
+
+Show O
+me O
+some O
+T-shirt B-PRODUCTNAME
+suggestions O
+
+Is O
+Realme B-PRODUCTNAME
+Narzo I-PRODUCTNAME
+5G I-PRODUCTNAME
+good O
+
+What O
+is O
+the O
+price B-PRICING
+of O
+carromboard B-PRODUCTNAME
+
+What O
+is O
+the O
+capacity O
+of O
+realme B-PRODUCTNAME
+powerbank I-PRODUCTNAME
+
+Tv, O
+fridge, O
+washing O
+machine, O
+monitor, O
+keyboard, O
+mouse O
+etc O
+are O
+electronics B-CATEGORY
+items O
+
+Is O
+there O
+any O
+electronics B-CATEGORY
+items O
+available O
+
+What O
+are O
+the O
+electronics B-CATEGORY
+items O
+available O
+
+Give O
+me O
+suggestions O
+for O
+mobiles O
+mobile B-CATEGORY
+
+Give O
+me O
+suggestions O
+for O
+grocery B-CATEGORY
+items O
+
+Which O
+all O
+grocery B-CATEGORY
+items O
+are O
+available O
+
+Suggest O
+me O
+some O
+latest O
+fashion B-CATEGORY
+and O
+trends O
+
+What O
+are O
+the O
+new O
+items O
+in O
+fashion B-CATEGORY
+category O
+
+I O
+am O
+looking O
+for O
+sports B-CATEGORY
+items O
+
+I O
+want O
+sports B-CATEGORY
+items O
+
+Is O
+sports B-CATEGORY
+items O
+available O
+
+Give O
+me O
+recommendations O
+on O
+fashion B-CATEGORY
+items O
+
+What O
+is O
+the O
+price B-PRICING
+of O
+a O
+product O
+
+How O
+much O
+does O
+it O
+cost B-PRICING
+
+Which O
+price B-PRICING
+range O
+you O
+are O
+looking O
+for O
+
+What O
+should O
+be O
+the O
+cost B-PRICING
+of O
+product O
+
+Do O
+you O
+want O
+expensive B-PRICING
+one O
+
+Is O
+a O
+cheaper O
+model O
+available O
+cheap B-PRICING
+
+Suggest O
+me O
+a O
+higher O
+priced O
+model O
+price B-PRICING
+high B-PRICING
+
+I O
+want O
+a O
+low O
+priced O
+one O
+price B-PRICING
+
+Show O
+me O
+suggestions O
+of O
+average B-PRICING
+amount O
+
+Suggest O
+some O
+cheap B-PRICING
+products O
+
+Will O
+it O
+cost B-PRICING
+high B-PRICING
+
+Is O
+it O
+available O
+at O
+Trivandrum B-CITY
+
+Can O
+I O
+get O
+the O
+delivery O
+at O
+Trivandrum B-CITY
+
+Is O
+it O
+available O
+at O
+Kochi B-CITY
+
+I O
+want O
+it O
+to O
+be O
+delivered O
+near O
+Kochi B-CITY
+
+Is O
+it O
+available O
+at O
+Chennai B-CITY
+
+I O
+want O
+to O
+it O
+be O
+delivered O
+at O
+Chennai B-CITY
+
+Kochi B-CITY
+Chennai B-CITY
+Trivandrum B-CITY
+Bangalore B-CITY
+are O
+cities O
+
+Can O
+I O
+get O
+the O
+product O
+at O
+Bangalore B-CITY
+
+I O
+want O
+it O
+to O
+be O
+delivered O
+at O
+Bangalore B-CITY
+
+Is O
+it O
+available O
+somewhere O
+near O
+Bangalore B-CITY
+
+I O
+will O
+be O
+there O
+at O
+Chennai B-CITY
+today O
+
+I O
+want O
+it O
+to O
+be O
+delivered O
+near O
+Kollam B-CITY
+
+I O
+want O
+delivery O
+near O
+Kochi B-CITY
+and O
+Trivandrum B-CITY
+
+I O
+want O
+5 B-NUMBEROFPRODUCTS
+products I-NUMBEROFPRODUCTS
+
+Is O
+2 B-NUMBEROFPRODUCTS
+pairs I-NUMBEROFPRODUCTS
+of O
+the O
+same O
+product O
+available O
+
+I O
+want O
+to O
+get O
+four B-NUMBEROFPRODUCTS
+of I-NUMBEROFPRODUCTS
+them I-NUMBEROFPRODUCTS
+
+I O
+want O
+3 B-NUMBEROFPRODUCTS
+items I-NUMBEROFPRODUCTS
+
+I O
+want O
+10 B-NUMBEROFPRODUCTS
+of I-NUMBEROFPRODUCTS
+them I-NUMBEROFPRODUCTS
+
+I O
+want O
+to O
+get O
+the O
+product O
+at O
+morning B-TIME
+
+Can O
+it O
+be O
+delivered O
+tomorrow B-TIME
+
+Is O
+it O
+available O
+after O
+2 O
+days B-TIME
+
+I O
+will O
+be O
+available O
+at O
+evening B-TIME
+today O
+
+I O
+want O
+it O
+to O
+be O
+delivered O
+at O
+afternoon B-TIME
+
+I O
+can O
+pick O
+the O
+product O
+tomorrow B-TIME
+morning B-TIME
+
+Will O
+be O
+available O
+from O
+5 B-TIME
+pm I-TIME
+to O
+9 B-TIME
+
+Can O
+the O
+product O
+be O
+delivered O
+at O
+morning B-TIME
+2 B-TIME
+am I-TIME
+to O
+pm I-TIME
+
+I O
+bought O
+a O
+new O
+mobile B-CATEGORY
+called O
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+
+What O
+is O
+the O
+memory O
+capacity O
+of O
+Poco B-PRODUCTNAME
+M2 I-PRODUCTNAME
+
+Which O
+is O
+more O
+expensive B-PRICING
+Samsung B-PRODUCTNAME
+Note I-PRODUCTNAME
+or O
+Apple B-PRODUCTNAME
+Iphone I-PRODUCTNAME
+? O
+
+Cashew B-PRODUCTNAME
+Nut I-PRODUCTNAME
+and O
+Peanut B-PRODUCTNAME
+Butter I-PRODUCTNAME
+are O
+good O
+for O
+health O
+. O
+
+I O
+'ve O
+been O
+longing O
+to O
+buy O
+a O
+DSLR B-PRODUCTNAME
+Camera I-PRODUCTNAME
+since O
+was O
+in O
+Banglore O
+
+You O
+get O
+cheap B-PRICING
+T-shirts O
+in O
+Kochi B-CITY
+streetshops O
+. O
+T-shirt B-PRODUCTNAME
+
+Sam O
+used O
+to O
+play O
+Football B-PRODUCTNAME
+with O
+his O
+dad O
+every O
+weekend O
+. O
+
+Banglore O
+is O
+famous O
+for O
+fashion B-CATEGORY
+. O
+
+She O
+packed O
+her O
+Yonex B-PRODUCTNAME
+racquet I-PRODUCTNAME
+and O
+cricket B-PRODUCTNAME
+bat I-PRODUCTNAME
+to O
+the O
+stadium O
+. O
+
+Her O
+mom O
+called O
+her O
+to O
+ask O
+whether O
+she O
+you O
+get O
+some O
+Ashirvad B-PRODUCTNAME
+Atta I-PRODUCTNAME
+and O
+Horlicks B-PRODUCTNAME
+from O
+the O
+grocery B-CATEGORY
+store O
+. O
+
+Is O
+that O
+your O
+bluetooth O
+headphones B-PRODUCTNAME
+? O
+
+The O
+trainer O
+said O
+they O
+would O
+give O
+a O
+gym B-PRODUCTNAME
+workout I-PRODUCTNAME
+kit I-PRODUCTNAME
+along O
+this O
+package O
+. O
+
+The O
+cat O
+jumbed O
+on O
+the O
+carromboard B-PRODUCTNAME
+. O
+
+That O
+mobile B-CATEGORY
+case I-PRODUCTNAME
+is O
+awesome O
+. O
+
+You O
+get O
+that O
+Roadster B-PRODUCTNAME
+T-shirt B-PRODUCTNAME
+for O
+Rs O
+299 O
+in O
+Myntra O
+. O
+
+Ram O
+bought O
+a O
+cheap B-PRICING
+suitcase B-PRODUCTNAME
+from O
+Chennai B-CITY
+. O
+
+He O
+gifted O
+her O
+a O
+Motorola B-PRODUCTNAME
+Edge I-PRODUCTNAME
+20 I-PRODUCTNAME
+for O
+birthday O
+. O
+
+I O
+totally O
+rely O
+on O
+Bata B-PRODUCTNAME
+footwear B-PRODUCTNAME
+since O
+my O
+childhood O
+. O
+
+Ravi O
+is O
+planning O
+to O
+surprise O
+his O
+mom O
+by O
+purchasing O
+an O
+expensive B-PRICING
+4K B-PRODUCTNAME
+TV I-PRODUCTNAME
+from O
+the O
+electronics B-CATEGORY
+store O
+
+They O
+are O
+planning O
+to O
+go O
+over O
+a O
+staycation O
+in O
+GrandHyatt O
+Trivandrum B-CITY
+. O
+
+I O
+ate O
+a O
+Dolo B-PRODUCTNAME
+pill O
+this O
+morning B-TIME
+11 B-TIME
+am I-TIME
+. O
+
+They O
+asked O
+me O
+whether O
+I O
+had O
+a O
+laptop B-PRODUCTNAME
+to O
+work O
+with O
+. O
+
+What O
+are O
+DTH B-PRODUCTNAME
+services O
+? O
+
+An O
+eGPU B-PRODUCTNAME
+can O
+be O
+plugged O
+into O
+a O
+laptop B-PRODUCTNAME
+to O
+boost O
+graphical O
+performance O
+. O
+
+I O
+went O
+to O
+the O
+Fashion B-CATEGORY
+store O
+yesterday O
+. O
+
+He O
+took O
+my O
+earphones B-PRODUCTNAME
+and O
+never O
+returned O
+it O
+. O
+
+You O
+get O
+averge O
+priced O
+DSLR B-PRODUCTNAME
+camera I-PRODUCTNAME
+in O
+Amazon O
+this O
+month O
+. O
+price B-PRICING
+
+There O
+is O
+prettygood O
+offers O
+for O
+Realme B-PRODUCTNAME
+Narzo I-PRODUCTNAME
+5G I-PRODUCTNAME
+and O
+powerBank I-PRODUCTNAME
+in O
+Flipkart O
+. O
+
+I O
+give O
+Horlicks B-PRODUCTNAME
+to O
+my O
+kids O
+everyday O
+. O
+
+I O
+wonder O
+where O
+she O
+is O
+going O
+with O
+those O
+travel B-PRODUCTNAME
+bags I-PRODUCTNAME
+. O
+
+I O
+was O
+born O
+and O
+brought O
+up O
+in O
+Kochi B-CITY
+. O
+
+My O
+Poco B-PRODUCTNAME
+M2 I-PRODUCTNAME
+mobile B-CATEGORY
+got O
+stolen O
+yesterday O
+in O
+Trivandrum B-CITY
+. O
+
+Use O
+sunflower B-PRODUCTNAME
+oil I-PRODUCTNAME
+to O
+make O
+peanut B-PRODUCTNAME
+butter I-PRODUCTNAME
+at O
+home O
+. O
+
+We O
+are O
+planning O
+to O
+sell O
+our O
+carromboard B-PRODUCTNAME
+away O
+. O
+
+What O
+all O
+are O
+present O
+in O
+that O
+gym B-PRODUCTNAME
+workout I-PRODUCTNAME
+kit I-PRODUCTNAME
+. O
+
+Can O
+I O
+have O
+a O
+look O
+at O
+you O
+Samsung B-PRODUCTNAME
+Note I-PRODUCTNAME
+? O
+
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+is O
+a O
+lot O
+better O
+than O
+Redmi B-PRODUCTNAME
+Note I-PRODUCTNAME
+9 I-PRODUCTNAME
+. O
+
+You O
+get O
+Ashirvad B-PRODUCTNAME
+Atta I-PRODUCTNAME
+in O
+almost O
+all O
+grocery B-CATEGORY
+shops O
+. O
+
+Is O
+that O
+a O
+Poco B-PRODUCTNAME
+M2 I-PRODUCTNAME
+? O
+
+I O
+have O
+no O
+interest O
+in O
+getting O
+a O
+Motorola B-PRODUCTNAME
+Edge I-PRODUCTNAME
+20 I-PRODUCTNAME
+. O
+
+My O
+dad O
+used O
+to O
+have O
+a O
+Apple B-PRODUCTNAME
+Iphone I-PRODUCTNAME
+. O
+
+Shyam O
+is O
+wearing O
+the O
+same O
+Roadster B-PRODUCTNAME
+T-shirt B-PRODUCTNAME
+as O
+mine O
+. O
+
+I O
+used O
+to O
+eat O
+Dolo B-PRODUCTNAME
+when O
+suffered O
+from O
+headaches O
+. O
+
+I O
+served O
+them O
+cashew B-PRODUCTNAME
+nuts O
+and O
+milkshakes O
+. O
+nut I-PRODUCTNAME
+
+Those O
+are O
+my O
+new O
+headphones B-PRODUCTNAME
+. O
+
+That O
+is O
+a O
+pretty O
+good O
+expensive B-PRICING
+laptop B-PRODUCTNAME
+. O
+
+Arjun O
+broke O
+his O
+Cricket B-PRODUCTNAME
+Bat I-PRODUCTNAME
+. O
+
+He O
+used O
+to O
+carry O
+his O
+suitcase B-PRODUCTNAME
+work O
+everyday O
+. O
+
+I O
+love O
+my O
+new O
+Samsung B-PRODUCTNAME
+Note I-PRODUCTNAME
+mobile B-CATEGORY
+. O
+
+Which O
+Horlicks B-PRODUCTNAME
+flavour O
+do O
+you O
+like O
+the O
+most O
+? O
+
+I O
+used O
+to O
+hate O
+watching O
+Football B-PRODUCTNAME
+matches O
+when O
+was O
+a O
+kid O
+. O
+
+Do O
+they O
+provide O
+gym B-PRODUCTNAME
+workout I-PRODUCTNAME
+kit I-PRODUCTNAME
+? O
+
+I O
+don O
+'t O
+know O
+much O
+about O
+that O
+4K B-PRODUCTNAME
+TV I-PRODUCTNAME
+. O
+
+I O
+have O
+red O
+colour O
+earphones B-PRODUCTNAME
+. O
+
+Let O
+me O
+check O
+the O
+reviews O
+about O
+Redmi B-PRODUCTNAME
+Note I-PRODUCTNAME
+9 I-PRODUCTNAME
+and O
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+. O
+
+I O
+didnt O
+include O
+Sunflower B-PRODUCTNAME
+Oil I-PRODUCTNAME
+in O
+my O
+diet O
+. O
+
+She O
+used O
+to O
+play O
+with O
+her O
+Yonex B-PRODUCTNAME
+racquet I-PRODUCTNAME
+. O
+
+Put O
+those O
+travel B-PRODUCTNAME
+bags I-PRODUCTNAME
+in O
+the O
+locker O
+room O
+. O
+
+I O
+would O
+like O
+to O
+take O
+that O
+T-shirt B-PRODUCTNAME
+. O
+
+They O
+said O
+that O
+Realme B-PRODUCTNAME
+PowerBank I-PRODUCTNAME
+is O
+out O
+of O
+stock O
+. O
+
+I O
+prefer O
+taking O
+pictures O
+in O
+DSLR B-PRODUCTNAME
+camera I-PRODUCTNAME
+than O
+mobile B-CATEGORY
+. O
+
+Are O
+Realme B-PRODUCTNAME
+Narzo I-PRODUCTNAME
+5G I-PRODUCTNAME
+mobiles O
+cheap B-PRICING
+in O
+India B-CITY
+? O
+mobile B-CATEGORY
+
+I O
+went O
+to O
+fetch O
+some O
+Ashirvad B-PRODUCTNAME
+Atta I-PRODUCTNAME
+, O
+Peanut B-PRODUCTNAME
+Butter, O
+Roasted B-PRODUCTNAME
+Almond I-PRODUCTNAME
+along O
+with O
+my O
+sister O
+. O
+Butter I-PRODUCTNAME
+
+I O
+misplaced O
+my O
+Bata B-PRODUCTNAME
+footwear B-PRODUCTNAME
+in O
+the O
+temple O
+. O
+
+I O
+spilled O
+hot O
+chocolate O
+on O
+my O
+carromboard B-PRODUCTNAME
+. O
+
+That O
+mobile B-CATEGORY
+case I-PRODUCTNAME
+has O
+my O
+name O
+on O
+it O
+. O
+
+What O
+do O
+you O
+mean O
+by O
+DTH B-PRODUCTNAME
+? O
+
+He O
+has O
+less O
+knowledge O
+about O
+eGPUs O
+. O
+eGPU B-PRODUCTNAME
+
+I O
+shifted O
+to O
+Trivandrum B-CITY
+for O
+work O
+. O
+
+The O
+food O
+in O
+Bangalore B-CITY
+is O
+amazing O
+. O
+
+You O
+get O
+good O
+banana O
+chips O
+in O
+Kochi B-CITY
+. O
+
+Chennai B-CITY
+is O
+famous O
+for O
+their O
+cuisine O
+. O
+
+I O
+hate O
+going O
+to O
+the O
+grocery B-CATEGORY
+store O
+. O
+
+I O
+dropped O
+my O
+mobile B-CATEGORY
+in O
+the O
+pool O
+. O
+
+His O
+fashion B-CATEGORY
+sense O
+is O
+terrible O
+. O
+
+I O
+opted O
+for O
+electronics B-CATEGORY
+and O
+Communication O
+Engineering O
+. O
+
+That O
+suite O
+is O
+quite O
+expensive B-PRICING
+. O
+
+Those O
+a O
+cheap B-PRICING
+handicrafts O
+. O
+
+Roy O
+was O
+an O
+average B-PRICING
+student O
+in O
+his O
+class O
+. O
+
+Bangalore B-CITY
+is O
+the O
+technology O
+hub O
+. O
+
+Trivandrum B-CITY
+is O
+one O
+of O
+the O
+fastest O
+growing O
+cities O
+in O
+coountry O
+
+Delivery O
+to O
+locations O
+near O
+Kochi B-CITY
+is O
+delyed O
+due O
+technical O
+reasons O
+
+How O
+far O
+is O
+kochi B-CITY
+from O
+Chennai B-CITY
+? O
+
+Main O
+hub O
+of O
+our O
+company O
+is O
+located O
+at O
+Chennai B-CITY
+
+It O
+takes O
+almost O
+12 O
+hours O
+to O
+travel O
+from O
+Bangalore B-CITY
+Chennai B-CITY
+
+Pune B-CITY
+and O
+Mumbai B-CITY
+are O
+in O
+Maharashtra O
+
+Delhi B-CITY
+is O
+the O
+capital O
+of O
+India B-CITY
+
+Kolkota B-CITY
+is O
+one O
+big O
+city O
+in O
+the O
+Eastern O
+region O
+
+Bedsheets O
+and O
+pillow O
+covers O
+have O
+special O
+offer O
+for O
+next O
+two O
+days B-TIME
+
+Big O
+billion O
+days B-TIME
+in O
+Flipkart O
+started O
+last O
+week O
+. O
+
+There O
+is O
+special O
+offers O
+for O
+grocery B-CATEGORY
+items O
+this O
+festival O
+season O
+
+If O
+product O
+delivery O
+delayed O
+today, O
+then O
+it O
+would O
+be O
+delivered O
+in O
+the O
+next O
+working O
+days B-TIME
+
+India B-CITY
+is O
+a O
+country O
+with O
+wide O
+variety O
+of O
+cuisines O
+
+There O
+is O
+50 O
+% O
+off O
+for O
+sports B-CATEGORY
+items O
+bought O
+from O
+Decathalon O
+
+Not O
+all O
+pairs O
+of O
+footwear B-PRODUCTNAME
+are O
+good O
+
+Nike, O
+Addidas, O
+Puma O
+are O
+some O
+leading O
+companies O
+in O
+fashion B-CATEGORY
+industry O
+
+If O
+it O
+is O
+cheap, O
+then O
+its O
+quality O
+might O
+be O
+compromised O
+cheap B-PRICING
+
+Is O
+that O
+a O
+Poco B-PRODUCTNAME
+M2 I-PRODUCTNAME
+? O
+
+I O
+have O
+no O
+interest O
+in O
+getting O
+a O
+Motorola B-PRODUCTNAME
+Edge I-PRODUCTNAME
+20 I-PRODUCTNAME
+. O
+
+My O
+dad O
+used O
+to O
+have O
+a O
+Apple B-PRODUCTNAME
+Iphone I-PRODUCTNAME
+. O
+
+Shyam O
+is O
+wearing O
+the O
+same O
+Roadster B-PRODUCTNAME
+T-shirt B-PRODUCTNAME
+as O
+mine O
+. O
+
+I O
+used O
+to O
+eat O
+Dolo B-PRODUCTNAME
+when O
+suffered O
+from O
+headaches O
+. O
+
+I O
+served O
+them O
+cashew B-PRODUCTNAME
+nuts O
+and O
+milkshakes O
+. O
+nut I-PRODUCTNAME
+
+Those O
+are O
+my O
+new O
+headphones B-PRODUCTNAME
+. O
+
+That O
+is O
+a O
+pretty O
+good O
+expensive B-PRICING
+laptop B-PRODUCTNAME
+. O
+
+Arjun O
+broke O
+his O
+Cricket B-PRODUCTNAME
+Bat I-PRODUCTNAME
+. O
+
+He O
+used O
+to O
+carry O
+his O
+suitcase B-PRODUCTNAME
+work O
+everyday O
+. O
+
+I O
+love O
+my O
+new O
+Samsung B-PRODUCTNAME
+Note I-PRODUCTNAME
+mobile B-CATEGORY
+. O
+
+Which O
+Horlicks B-PRODUCTNAME
+flavour O
+do O
+you O
+like O
+the O
+most O
+? O
+
+I O
+used O
+to O
+hate O
+watching O
+Football B-PRODUCTNAME
+matches O
+when O
+was O
+a O
+kid O
+. O
+
+Do O
+they O
+provide O
+gym B-PRODUCTNAME
+workout I-PRODUCTNAME
+kit I-PRODUCTNAME
+? O
+
+I O
+don O
+'t O
+know O
+much O
+about O
+that O
+4K B-PRODUCTNAME
+TV I-PRODUCTNAME
+. O
+
+I O
+have O
+red O
+colour O
+earphones B-PRODUCTNAME
+. O
+
+Let O
+me O
+check O
+the O
+reviews O
+about O
+Redmi B-PRODUCTNAME
+Note I-PRODUCTNAME
+9 I-PRODUCTNAME
+and O
+Samsung B-PRODUCTNAME
+M51 I-PRODUCTNAME
+. O
+
+I O
+didnt O
+include O
+Sunflower B-PRODUCTNAME
+Oil I-PRODUCTNAME
+in O
+my O
+diet O
+. O
+
+She O
+used O
+to O
+play O
+with O
+her O
+Yonex B-PRODUCTNAME
+racquet I-PRODUCTNAME
+. O
+
+Put O
+those O
+travel B-PRODUCTNAME
+bags I-PRODUCTNAME
+in O
+the O
+locker O
+room O
+. O
+
+I O
+would O
+like O
+to O
+take O
+that O
+T-shirt B-PRODUCTNAME
+. O
+
+They O
+said O
+that O
+Realme B-PRODUCTNAME
+PowerBank I-PRODUCTNAME
+is O
+out O
+of O
+stock O
+. O
+
+I O
+prefer O
+taking O
+pictures O
+in O
+DSLR B-PRODUCTNAME
+camera I-PRODUCTNAME
+than O
+mobile B-CATEGORY
+. O
+
+Are O
+Realme B-PRODUCTNAME
+Narzo I-PRODUCTNAME
+5G I-PRODUCTNAME
+mobiles O
+cheap B-PRICING
+in O
+India B-CITY
+? O
+mobile B-CATEGORY
+
+I O
+went O
+to O
+fetch O
+some O
+Ashirvad B-PRODUCTNAME
+Atta I-PRODUCTNAME
+, O
+Peanut B-PRODUCTNAME
+Butter, O
+Roasted B-PRODUCTNAME
+Almond I-PRODUCTNAME
+along O
+with O
+my O
+sister O
+. O
+Butter I-PRODUCTNAME
+
+I O
+misplaced O
+my O
+Bata B-PRODUCTNAME
+footwear B-PRODUCTNAME
+in O
+the O
+temple O
+. O
+
+I O
+spilled O
+hot O
+chocolate O
+on O
+my O
+carromboard B-PRODUCTNAME
+. O
+
+That O
+mobile B-CATEGORY
+case I-PRODUCTNAME
+has O
+my O
+name O
+on O
+it O
+. O
+
+What O
+do O
+you O
+mean O
+by O
+DTH B-PRODUCTNAME
+? O
+
+He O
+has O
+less O
+knowledge O
+about O
+eGPUs O
+. O
+eGPU B-PRODUCTNAME
+
+I O
+shifted O
+to O
+Trivandrum B-CITY
+for O
+work O
+. O
+
+The O
+food O
+in O
+Bangalore B-CITY
+is O
+amazing O
+. O
+
+You O
+get O
+good O
+banana O
+chips O
+in O
+Kochi B-CITY
+. O
+
+Chennai B-CITY
+is O
+famous O
+for O
+their O
+cuisine O
+. O
+
+I O
+hate O
+going O
+to O
+the O
+grocery B-CATEGORY
+store O
+. O
+
+I O
+dropped O
+my O
+mobile B-CATEGORY
+in O
+the O
+pool O
+. O
+
+His O
+fashion B-CATEGORY
+sense O
+is O
+terrible O
+. O
+
+I O
+opted O
+for O
+electronics B-CATEGORY
+and O
+Communication O
+Engineering O
+. O
+
+That O
+suite O
+is O
+quite O
+expensive B-PRICING
+. O
+
+Those O
+were O
+cheap B-PRICING
+handicrafts O
+. O
+
+Roy O
+was O
+an O
+average B-PRICING
+student O
+in O
+his O
+class O
+
